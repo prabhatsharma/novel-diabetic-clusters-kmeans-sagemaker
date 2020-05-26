@@ -20,5 +20,5 @@ This will allow us to place the patients in 5 finely defined clusters as opposed
 # Instructions
 
 1. Data generation - You can generate dummy data using data_generator.py . This file generates 10,000 records. You can use this to build a model for testing. Once the file is generated place it in a bucket in s3
-2. main.ipynb , preprocessing.py - Copy these 2 files in your sagmeaker notebook or sagemaker studio. the notebook file will help you preprocess the data, train the model and deploy the model.
+2. main.ipynb , preprocessing.py - Copy these 2 files in your sagmeaker notebook. This will help you preprocess the data, train the model and deploy the model.
 3. inference.py or inference.js - You can use either of these to run inference on generated model

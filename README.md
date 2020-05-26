@@ -15,7 +15,7 @@ This will allow us to place the patients in 5 finely defined clusters as opposed
 
 # Architecture diagram
 
-![Architecture diagram](diabetes.png)
+![Architecture diagram](diabetes2.png)
 
 # Instructions
 

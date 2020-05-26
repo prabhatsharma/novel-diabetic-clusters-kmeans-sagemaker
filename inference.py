@@ -1,7 +1,7 @@
+
 import boto3
 import numpy as np
 import json
-
 
 client = boto3.client('sagemaker-runtime')
 

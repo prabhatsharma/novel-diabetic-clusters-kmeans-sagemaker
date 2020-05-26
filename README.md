@@ -1,7 +1,7 @@
 # Novel Diabetic cluster identification using sagemaker
 
-Based on the paper [Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables](
-https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30051-2/fulltext), we use sagemaker to cluster the data based on the following variables:
+Diabetes classification based on the paper [Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables](
+https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30051-2/fulltext). We use sagemaker to cluster the data based on the following variables:
 
 1. glutamate decarboxylase antibodies (GAD), 
 2. age at diagnosis, 

@@ -26,7 +26,7 @@ t_data = scaler.transform(data)
 Kmean = KMeans(n_clusters=5)
 result = Kmean.fit(t_data)
 
-X = [590, 91, 45, 2.39, 8.06]
+X = [291,97,41,9.0,0.82,22.56]
 X = np.reshape(X, (1,-1))
 t_X = scaler.transform(X)
 print(result.predict(t_X))

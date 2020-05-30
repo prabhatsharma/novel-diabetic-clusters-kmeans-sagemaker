@@ -17,7 +17,7 @@ file_name = args.output
 
 f = open(file_name, "w")
 
-header = 'GAD, AGE, BMI, HOMA_IR, HOMA_Beta \n'
+header = 'GAD, AGE, BMI, HbA1c, HOMA_IR, HOMA_Beta \n'
 
 f.write(header)
 
@@ -33,7 +33,7 @@ for j in range(0,required_records):
     HOMA_IR = round(glucose_level*insulin_level/22.5,2)
     HOMA_Beta = round((20*insulin_level)/(glucose_level-3.5),2)
 
-    data = str(GAD) + ',' + str(AGE) + ',' + str(BMI) + ',' + str(HOMA_IR) + ',' + str(HOMA_Beta) + '\n'
+    data = str(GAD) + ',' + str(AGE) + ',' + str(BMI) + ',' + str(HbA1c) + ',' + str(HOMA_IR) + ',' + str(HOMA_Beta) + '\n'
 
     f.write(data)
 
